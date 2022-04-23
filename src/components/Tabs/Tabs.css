@@ -1,0 +1,21 @@
+.tabs-nav {
+    display: flex;
+    border-bottom: 1px gray solid;
+    position: relative;
+}
+  
+.tabs-ink {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #4285f4;
+    transform-origin: left;
+    transition: transform 500ms cubic-bezier(0, 0, 0.2, 1) 0s;
+    transform: translate3d(0px, 0px, 0px) scaleX(0);
+}
+    
+.tabs-container {
+    padding: 30px;
+}
